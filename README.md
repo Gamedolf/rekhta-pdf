@@ -11,8 +11,8 @@ A command line application to download e-books from [rekhta.org](https://rekhta.
 
 ## Usage
 ### Method 1
-3. Run `npm install -g .` to install globally as a command line application
-4. Run `rekhta-pdf --url <book-url>` in any directory to begin downloading
+4. Run `npm install -g .` to install globally as a command line application
+5. Run `rekhta-pdf --url <book-url>` in any directory to begin downloading
 
 ### Method 2
-3. Run `node . --url <book-url>` in the installation directory to begin downloading
+4. Run `node . --url <book-url>` in the installation directory to begin downloading
