@@ -1,9 +1,12 @@
 {
-  "name": "rekhta-to-pdf",
+  "name": "rekhta-pdf",
   "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "rekhta-pdf": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +15,7 @@
   "dependencies": {
     "canvas": "^2.11.2",
     "node-fetch": "^3.3.2",
-    "pdf-lib": "^1.17.1"
+    "pdf-lib": "^1.17.1",
+    "yargs": "^17.7.2"
   }
 }
